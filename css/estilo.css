@@ -1,0 +1,297 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Balsamiq Sans;
+}
+
+#centro{
+    margin: auto;
+    width: 100%;
+}
+.centro-texto{
+    text-align: center;
+    margin-top:10px;
+ 
+    font-weight: bold;
+    font-size: 20px;
+}
+.form-check-label{
+    text-align: center;
+    margin-top:10px;
+    
+}
+.form-check-input{
+    text-align: center;
+    margin-bottom: 10px;
+   
+}
+img{
+    width: 100%;
+    position: absolute;
+}
+
+table{
+    font-size: 14px;
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid black;
+    line-height: 25px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+
+tr#titulo{
+    text-align: center;
+    font-weight: bold;
+    background-color: #0f93ff;
+    border-radius: 2px;
+}
+tr{
+    background-color: rgb(218, 213, 213, 0.5);
+    text-align: center;
+    border-radius: 2px;
+}
+td{
+    padding: 10px;
+   
+}
+
+body{
+    background-image: url(../img/bgLivros.png);
+    background-size: cover;
+    margin: 0px;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+a:link{
+    text-decoration: none;
+    font-weight: bold;
+    border-width: 4px;
+    text-align: center;
+   
+  
+}
+
+label, input{
+    display: block;
+    line-height: 30px;
+    outline: none;
+    font-size: 12pt;
+    width: 99%;
+    color:#fff;
+    
+}
+
+form{
+    width: 30%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 4px;
+ 
+}
+
+
+input[type=text], input[type=number], input[type=email], input[type=password] {
+    color: black;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+ }
+    .box {
+    width: 400px;
+    height: 580px;
+    background: rgba(0, 0, 0, 0.5);
+    padding:30px; 
+    border-radius: 10px;
+  
+  }
+  .box h1{
+      text-align: center;
+      color: rgb(255, 255, 255);
+      font-weight:bold;
+      padding-top:40px;
+      padding-bottom:40px;
+      font-size:50px;
+
+  }
+ 
+  .box img{
+      padding-left:120px;
+      padding-top:60px;
+  }
+  .box input{
+      width:400px;
+      height: 40px;
+      border-radius: 8px;
+      border: 1px solid #000;
+      
+  }
+  .box input[type="submit"]{
+    border: none;
+	background:none;
+	outline: none;
+	color: #fff;
+	background:#0f93ff;
+	padding: 10px 20px;
+	margin-top: 10px;
+	cursor: pointer;
+   
+}
+
+.box .box-menu {
+    padding-right: 50px;
+}
+
+
+#divBusca{
+    background-color:#ffffff;
+    border:solid 1px;
+    border-radius:10px;
+    width:300px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+  }
+
+  /*tela de login*/
+  @import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+.fundo{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image:url("bgLivros.png") no-repeat;
+	background-size: cover;
+}
+
+.login-box{
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width:400px;
+	padding: 40px;
+	transform: translate(-50%,-50%);
+	color: rgb(255, 255, 255);
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.titulo-login{
+	float: left;
+	font-size: 30px;
+	border-bottom: 6px solid #0f93ff;
+	margin-bottom: 50px;
+	padding: 13px 0;
+}
+
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid #0f93ff;
+}
+
+.textbox i{
+	width: 26px;
+	float: left;
+	text-align: center;
+
+}
+
+.textbox input{
+	border:none;
+	outline: none;
+	background:none;
+	color: rgb(12, 12, 12);
+	font-size: 18px;
+	width: 80%;
+	float:left;
+	margin:0 10px;
+}
+
+.botao{
+	border: none;
+	background:none;
+	outline: none;
+	color: #fff;
+	background:#0f93ff;
+	padding: 10px 20px;
+	margin-top: 10px;
+	cursor: pointer;
+	
+}
+#botao{ 
+text-align: center ;
+margin-top:10px;
+}
+
+.botaoEnviar{
+  	border: none;
+	background:none;
+	outline: none;
+	color: #fff;
+	background:#0f93ff;
+	padding: 5px;
+	margin-top: 10px;
+    cursor: pointer;
+    width: 65%;
+    margin-left: 78px;
+    border-radius: 10px;
+  
+}
+
+::-webkit-input-placeholder{
+    color:	rgb(255, 255, 255);
+}
+::-webkit-input-placeholder{
+	color:	#808080; 
+}
+
+/*CADSTRO FUNCIONARIO*/
+
+.escolha_acesso p{
+    margin-top:15px;
+    margin-bottom:15px;
+    color:white;
+    text-align: center;
+ }
+
+ .erro{
+    background-color: #d9bb5b;
+    color: #a31f02;
+    font-size: 30px
+ }
+
+ .sucesso{
+    background-color: #5be26d;
+    color: #0c6f96;
+    font-size: 30px
+ }
