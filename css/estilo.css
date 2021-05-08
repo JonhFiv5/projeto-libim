@@ -92,7 +92,6 @@ label, input{
 }
 
 form{
-    width: 30%;
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
     margin: 30px auto;
@@ -105,20 +104,9 @@ input[type=text], input[type=number], input[type=email], input[type=password] {
     color: black;
 }
 
-
-.container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center
- }
     .box {
-    width: 400px;
-    height: 580px;
     background: rgba(0, 0, 0, 0.5);
-    padding:30px; 
+    padding: 30px;
     border-radius: 10px;
   
   }
@@ -137,8 +125,8 @@ input[type=text], input[type=number], input[type=email], input[type=password] {
       padding-top:60px;
   }
   .box input{
-      width:400px;
-      height: 40px;
+      /* width:400px;
+      height: 40px; */
       border-radius: 8px;
       border: 1px solid #000;
       
@@ -259,13 +247,8 @@ margin-top:10px;
 	outline: none;
 	color: #fff;
 	background:#0f93ff;
-	padding: 5px;
-	margin-top: 10px;
     cursor: pointer;
-    width: 65%;
-    margin-left: 78px;
-    border-radius: 10px;
-  
+    border-radius: 10px;  
 }
 
 ::-webkit-input-placeholder{
